@@ -10,7 +10,7 @@ A full-stack Issue Tracker Application built with **React.js** for the frontend 
 
 1. Clone this repository to your local machine:
    ```bash
-   git clone [https://github.com/lopus-maximus/Issue-Tracker-App.git](https://github.com/lopus-maximus/Issue-Tracker-App.git)
+   git clone https://github.com/lopus-maximus/Issue-Tracker-App.git
    cd Issue-Tracker-App
    ```
 
