@@ -8,13 +8,19 @@ A full-stack Issue Tracker Application built with **React.js** for the frontend 
 
 ### Frontend (React)
 
-1. Navigate to the `issue-tracker-frontend` folder:
+1. Clone this repository to your local machine:
+   ```bash
+   git clone [https://github.com/lopus-maximus/Issue-Tracker-App.git](https://github.com/lopus-maximus/Issue-Tracker-App.git)
+   cd Issue-Tracker-App
+   ```
+
+2. Navigate to the `issue-tracker-frontend` folder:
 
    ```bash
    cd issue-tracker-frontend
    ```
 
-2. Install dependencies:
+3. Install dependencies:
    ```bash
    npm install
    ```
