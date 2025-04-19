@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap");
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 2rem;
+  background-color: inherit;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: "Manrope", sans-serif;
+}
+
+.container {
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  border-radius: 16px;
+  background: rgba(30, 30, 30, 0.9);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(4px);
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 2rem;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+.nav-link:hover {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+.form-control,
+.form-select {
+  background-color: #2e2e2e;
+  color: #ffffff;
+  border: 1px solid #555;
+}
+
+.form-select {
+  background-image: url("data:image/svg+xml,%3csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220%200%2024%2024%22 stroke=%22%23fff%22 stroke-width=%222%22 fill=%22none%22%3e%3cpath d=%22M7%2010l5%205%205-5%22/%3e%3c/svg%3e");
+  background-size: 20px;
+}
+
+.form-control::placeholder {
+  color: #bbb;
+}
+
+.form-select option {
+  background-color: #2e2e2e;
+  color: #ffffff;
+}
+
+.form-control:focus,
+.form-select:focus {
+  background-color: #3a3a3a;
+  border-color: #888;
+  box-shadow: none;
+  color: white;
+}
+
+.form-select:hover,
+.form-control:hover {
+  border-color: #888;
+}

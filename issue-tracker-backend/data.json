@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "title": "Badge Styling Inconsistencies",
+    "description": "The status and priority badges do not have uniform padding and border radius, leading to inconsistent styling across different pages of the app.",
+    "status": "Open",
+    "priority": "Low",
+    "createdAt": "2025-04-03T10:00:00.000Z"
+  },
+  {
+    "id": 2,
+    "title": "Navigation Links Unresponsive",
+    "description": "Clicking on the navigation links doesn't change the active view sometimes. This appears to be a React routing issue and occurs after using the browser back button.",
+    "status": "In Progress",
+    "priority": "Medium",
+    "createdAt": "2025-04-04T15:05:00.000Z"
+  },
+  {
+    "id": 3,
+    "title": "Notifications Not Triggering",
+    "description": "Users are not being notified when a new issue is assigned to them. This leads to delays in resolution as users are unaware of their responsibilities.",
+    "status": "Open",
+    "priority": "High",
+    "createdAt": "2025-04-05T08:10:00.000Z"
+  },
+  {
+    "id": 4,
+    "title": "Dark Mode Styling Bugs",
+    "description": "Some UI components like dropdown arrows and input borders are hard to see in dark mode due to insufficient contrast or incorrect styles not overridden.",
+    "status": "In Progress",
+    "priority": "High",
+    "createdAt": "2025-04-06T13:30:00.000Z"
+  },
+  {
+    "id": 5,
+    "title": "Text Overlapping in Table",
+    "description": "In the issues table, long titles and descriptions overflow into other columns, making the table hard to read without horizontal scrolling.",
+    "status": "Open",
+    "priority": "Medium",
+    "createdAt": "2025-04-07T17:20:00.000Z"
+  },
+  {
+    "id": 6,
+    "title": "Incorrect Priority Display",
+    "description": "The color badges for priority levels are not consistent. 'High' is sometimes shown in blue instead of red, leading to confusion for users reviewing issue urgency.",
+    "status": "Open",
+    "priority": "Medium",
+    "createdAt": "2025-04-08T09:55:00.000Z"
+  },
+  {
+    "id": 7,
+    "title": "Missing Timestamps",
+    "description": "Some of the issues in the database do not have a 'createdAt' timestamp, causing them to sort incorrectly or not display at all in the sorted list.",
+    "status": "Closed",
+    "priority": "Low",
+    "createdAt": "2025-04-09T12:05:00.000Z"
+  },
+  {
+    "id": 8,
+    "title": "Priority Filter Not Working",
+    "description": "The priority filter dropdown has no effect when selected. Issues with different priorities still appear in the list regardless of the filter selected.",
+    "status": "In Progress",
+    "priority": "Low",
+    "createdAt": "2025-04-10T16:30:00.000Z"
+  },
+  {
+    "id": 9,
+    "title": "404 Error on Detail Page",
+    "description": "Visiting the details page of certain issues results in a 404 error. This seems to happen when the issue ID contains non-numeric characters.",
+    "status": "Open",
+    "priority": "Medium",
+    "createdAt": "2025-04-11T14:00:00.000Z"
+  },
+  {
+    "id": 10,
+    "title": "Search Function Slow",
+    "description": "When searching for issues by title, the system becomes very slow and sometimes unresponsive, especially when there are more than 100 records in the database.",
+    "status": "In Progress",
+    "priority": "Medium",
+    "createdAt": "2025-04-12T10:22:00.000Z"
+  },
+  {
+    "id": 11,
+    "title": "Data Not Saving",
+    "description": "Changes made to issue status or priority are not persisting in the database. Users report that after refreshing the page, all modifications are lost.",
+    "status": "Open",
+    "priority": "High",
+    "createdAt": "2025-04-13T09:45:00.000Z"
+  },
+  {
+    "id": 12,
+    "title": "Crash on Form Submit",
+    "description": "The application crashes when a user submits the 'Create Issue' form with special characters in the description. This seems to be due to a validation or encoding problem on the backend.",
+    "status": "Open",
+    "priority": "High",
+    "createdAt": "2025-04-14T11:00:00.000Z"
+  },
+  {
+    "id": 13,
+    "title": "UI Misalignment",
+    "description": "On devices with smaller screen sizes, such as mobile phones, the buttons in the header section are misaligned and overlap with other elements, making the interface difficult to use.",
+    "status": "In Progress",
+    "priority": "Medium",
+    "createdAt": "2025-04-15T13:15:00.000Z"
+  },
+  {
+    "id": 14,
+    "title": "Login Failure",
+    "description": "Users are unable to log in after the recent update. The login button appears unresponsive, and no error messages are being displayed, which is confusing for users.",
+    "status": "Open",
+    "priority": "High",
+    "createdAt": "2025-04-16T08:30:00.000Z"
+  },
+  {
+    "id": 15,
+    "title": "Sample Bug",
+    "description": "Something is broken. scnsncjskc  jsc jsc jsk cjscdsncjndscndscnwc jdsncndjasnjnx",
+    "status": "Open",
+    "priority": "High",
+    "createdAt": "2025-04-17T10:00:00.000Z"
+  }
+]
